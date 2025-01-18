@@ -1,0 +1,65 @@
+:host(){
+    --maroon: #8E1616;
+    --dark: #1D1616;
+}
+
+.currency-app {
+    background: url(/sfsites/c/resource/currencyAssets/currencyBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 10px auto;
+    background: var(--dark);
+    max-width: 450px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.heading-label {
+    font-weight: bold;
+    text-align: center;
+    color: #EEEEEE;
+    padding-top: 20px;
+}
+
+.input-label {
+    font-size: 16px;
+    padding: 16px;
+}
+
+.custom-icon {
+    --slds-c-icon-color-foreground: var(--maroon);
+    --slds-c-icon-color-bacground: var(--dark);
+    transform: rotate(45deg);
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+}
+
+.slds-col {
+    align-items: baseline;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    background: var(--maroon);
+    color: #EEEEEE;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.result {
+    color: var(--maroon);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.result-to {
+    color: #F0BC5E;
+}
