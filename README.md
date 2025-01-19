@@ -1,4 +1,4 @@
-# BMI Calculator using LWC
+# Currency Converter using LWC
 ## Overview
 This is a Currency Converter App built in Salesforce using Salesforce Lightning Web Components (LWC). The app allows users to convert between different currencies using real-time exchange rates.
 
